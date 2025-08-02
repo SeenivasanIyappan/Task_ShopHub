@@ -62,11 +62,9 @@
 │   │   │  │ │ │  └── NewUserSteps.java
 │   │   │  │ ├── target
 │   │   │  │ │ ├── cucumber-reports            
-│   │   │  │ │ │ ├── cucumber.html       # HTML Report
+│   │   │  │ │ │ ├── cucumber.html           # HTML Report
 │   │   │  │ │ │ │   └── cucumber.json
 │   │   │  │ │ │ │   └── cucumber.xml
 │   │   │  │ │ ├── ExtentReports 
-│   │   │  │ │ │ ├── ExtentReport1.html    # Extent HTML Report
+│   │   │  │ │ │ ├── ExtentReport1.html      # Extent HTML Report
 ├── pom.xml
-├── index.html
-├── rate.html
