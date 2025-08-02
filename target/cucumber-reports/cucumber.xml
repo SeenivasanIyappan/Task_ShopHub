@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="123.462" tests="8" skipped="0" failures="2" errors="0" timestamp="2025-08-02T07:08:10.998333100Z">
+<testcase classname="Successful login to Admin portal and add a new product" name="Login, add a new product, search product, add to cart, and checkout - #1.1" time="19.933">
+<system-out><![CDATA[
+Given Admin is on the login page............................................passed
+When Admin enters valid email "admin@shophub.com" and password "admin123"...passed
+And Admin clicks the login button...........................................passed
+Then Admin should be redirected to the home page............................passed
+When Admin clicks on the Admin panel........................................passed
+And Admin adds a new product with name "Bluetooth Mouse"....................passed
+And Admin selects category "Electronics" and enters price "499".............passed
+And Admin enters initial stock "20" and product description "Wireless optical mouse".passed
+Then Admin clicks the Add Product button....................................passed
+Then Admin click the all Products section...................................passed
+When Admin clicks on the search bar.........................................passed
+And Admin types "Bluetooth Mouse" into the search bar.......................passed
+And clicks the search button................................................passed
+Then Products related to "Bluetooth Mouse" should be displayed..............passed
+When User clicks "Add to Cart" on a displayed product.......................passed
+Then The product should be added to the shopping cart.......................passed
+When User clicks on the cart icon...........................................passed
+Then The cart summary should display the added product with the correct price.passed
+When User clicks the Checkout button........................................passed
+Then User should be redirected to the checkout page.........................passed
+Then User click the Logout button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Successful login to Admin portal and add a new product" name="Login, Open Admin Panel, and Edit Existing Products - #1.1" time="6.045">
+<system-out><![CDATA[
+Given Admin is on the login page............................................passed
+When Admin enters valid email "admin@shophub.com" and password "admin123"...passed
+And Admin clicks the login button...........................................passed
+Then Admin should be redirected to the home page............................passed
+When Admin clicks on the Admin panel........................................passed
+Then Admin clicks on the Existing Products section..........................passed
+And Admin see the "Sony WH-1000XM5" list and clicks the edit icon...........passed
+Then Admin enters updated stock value "65"..................................passed
+And clicks the update button................................................passed
+Then A success notification should be displayed.............................passed
+Then User click the Logout button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Successful login to Admin portal and add a new product" name="Login, Open Admin Panel, and Delete Existing Products - #1.1" time="4.705">
+<system-out><![CDATA[
+Given Admin is on the login page............................................passed
+When Admin enters valid email "admin@shophub.com" and password "admin123"...passed
+And Admin clicks the login button...........................................passed
+Then Admin should be redirected to the home page............................passed
+When Admin clicks on the Admin panel........................................passed
+Then Admin clicks on the Existing Products section..........................passed
+And Admin see "Dell Monitor 27"" list and clicks the delete icon,and a confirmation popup appears.passed
+When Admin confirms the deletion............................................passed
+Then A success notification should be displayed stating the product was deleted.passed
+Then User click the Logout button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Unsuccessful Login and Invalid Search" name="Unsuccessful login attempt with invalid credentials - #1.1" time="23.532">
+<failure type="java.lang.AssertionError" message="Login failed. Expected success, but got failure.">
+<![CDATA[java.lang.AssertionError: Login failed. Expected success, but got failure.
+	at page.LoginPage.checkLoginOutcome(LoginPage.java:74)
+	at stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page(LoginSteps.java:59)
+	at ✽.User should be redirected to the home page(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters invalid email "user@example.com" and password "user12".....passed
+And clicks the login button.................................................passed
+Then User should be redirected to the home page.............................failed
+]]></system-out>
+</testcase>
+<testcase classname="Unsuccessful Login and Invalid Search" name="Valid login but product not found in search - #1.1" time="14.696">
+<failure type="java.lang.AssertionError" message="Product 'vivo' was found but should not be displayed.">
+<![CDATA[java.lang.AssertionError: Product 'vivo' was found but should not be displayed.
+	at org.junit.Assert.fail(Assert.java:89)
+	at page.HomePage.displayed_product(HomePage.java:70)
+	at stepdefinitions.LoginSteps.products_related_to_should_not_be_displayed(LoginSteps.java:96)
+	at ✽.Products related to "vivo" should not be displayed(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:23)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters valid email "guest@demo.com" and password "guest123".......passed
+And clicks the login button.................................................passed
+Then User should be redirected to the home page.............................passed
+When User clicks on the search bar..........................................passed
+And User types "vivo" into the search bar...................................passed
+And clicks the search button................................................passed
+Then Products related to "vivo" should not be displayed.....................failed
+]]></system-out>
+</testcase>
+<testcase classname="Successful Shopping Journey for User and Guest User" name="Login, search product, add to cart, and checkout - #1.1" time="14.917">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters valid email "user@example.com" and password "user123"......passed
+And clicks the login button.................................................passed
+Then User should be redirected to the home page.............................passed
+When User clicks on the search bar..........................................passed
+And User types "MacBook" into the search bar................................passed
+And clicks the search button................................................passed
+Then Products related to "MacBook" should be displayed......................passed
+When User clicks "Add to Cart" on a displayed product.......................passed
+Then The product should be added to the shopping cart.......................passed
+When User clicks on the cart icon...........................................passed
+Then The cart summary should display the added product with the correct price.passed
+When User clicks the Checkout button........................................passed
+Then User should be redirected to the checkout page.........................passed
+Then User click the Logout button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Successful Shopping Journey for User and Guest User" name="Login, search product, add to cart, and checkout - #1.2" time="14.888">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters valid email "guest@demo.com" and password "guest123".......passed
+And clicks the login button.................................................passed
+Then User should be redirected to the home page.............................passed
+When User clicks on the search bar..........................................passed
+And User types "iPhone" into the search bar.................................passed
+And clicks the search button................................................passed
+Then Products related to "iPhone" should be displayed.......................passed
+When User clicks "Add to Cart" on a displayed product.......................passed
+Then The product should be added to the shopping cart.......................passed
+When User clicks on the cart icon...........................................passed
+Then The cart summary should display the added product with the correct price.passed
+When User clicks the Checkout button........................................passed
+Then User should be redirected to the checkout page.........................passed
+Then User click the Logout button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Successful Shopping Journey for User and Guest User" name="User successfully creates a new account with valid details" time="24.307">
+<system-out><![CDATA[
+Given User is on the Create New Account page................................passed
+When User enters a valid "First Name" and "last Name".......................passed
+And User enters a valid email "Email Address"...............................passed
+And User enters a valid password "Password".................................passed
+And User enters the same "Password" in the Confirm Password field...........passed
+Then User enters a valid Number "Phone Number"..............................passed
+And User agrees to the Terms and Conditions.................................passed
+And User clicks on the Create Account button................................passed
+Then A success message Account created successfully should be displayed.....passed
+And User should be redirected to the login page.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

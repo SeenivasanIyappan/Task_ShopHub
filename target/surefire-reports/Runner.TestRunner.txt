@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 129.946 s <<< FAILURE! - in Runner.TestRunner
+Unsuccessful Login and Invalid Search.Unsuccessful login attempt with invalid credentials  Time elapsed: 23.542 s  <<< FAILURE!
+java.lang.AssertionError: Login failed. Expected success, but got failure.
+	at page.LoginPage.checkLoginOutcome(LoginPage.java:74)
+	at stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page(LoginSteps.java:59)
+	at ✽.User should be redirected to the home page(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:8)
+
+Unsuccessful Login and Invalid Search.Valid login but product not found in search  Time elapsed: 14.699 s  <<< FAILURE!
+java.lang.AssertionError: Product 'vivo' was found but should not be displayed.
+	at org.junit.Assert.fail(Assert.java:89)
+	at page.HomePage.displayed_product(HomePage.java:70)
+	at stepdefinitions.LoginSteps.products_related_to_should_not_be_displayed(LoginSteps.java:96)
+	at ✽.Products related to "vivo" should not be displayed(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:23)
+

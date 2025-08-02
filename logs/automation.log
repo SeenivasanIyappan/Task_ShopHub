@@ -1,0 +1,348 @@
+2025-08-02 09:13:56 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 09:13:59 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:13:59 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:14:01 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:14:01 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (8691f22d8ccecc92bb0b5df9ce9eab40)] -> xpath: //input[@id='email']]
+2025-08-02 09:14:02 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (8691f22d8ccecc92bb0b5df9ce9eab40)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:14:13 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (8691f22d8ccecc92bb0b5df9ce9eab40)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:14:13 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:14:14 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:14:14 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:14:15 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:14:15 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (826c1eab66bdb565e252afb15fd4926e)] -> xpath: //input[@id='email']]
+2025-08-02 09:14:16 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (826c1eab66bdb565e252afb15fd4926e)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:14:27 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (826c1eab66bdb565e252afb15fd4926e)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:14:27 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:18:58 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 09:19:00 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:19:00 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:19:01 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:19:01 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (88cb6e70f0442ba109f30ce3484b5edf)] -> xpath: //input[@id='email']]
+2025-08-02 09:19:02 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (88cb6e70f0442ba109f30ce3484b5edf)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:19:13 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (88cb6e70f0442ba109f30ce3484b5edf)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:19:13 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:19:14 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:19:14 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:19:15 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:19:15 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (cdf0f29412cc5f13f349661091e8844b)] -> xpath: //input[@id='email']]
+2025-08-02 09:19:16 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (cdf0f29412cc5f13f349661091e8844b)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:19:27 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (cdf0f29412cc5f13f349661091e8844b)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:19:27 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:20:28 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 09:20:30 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:20:30 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:20:30 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:20:31 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (6704fae51683d28d2bfcf99c505ecf2f)] -> xpath: //input[@id='email']]
+2025-08-02 09:20:32 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (6704fae51683d28d2bfcf99c505ecf2f)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:20:42 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (6704fae51683d28d2bfcf99c505ecf2f)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:20:43 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:20:44 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:20:44 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:20:45 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:20:45 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (71c3a3906263ce21a9e76156e79a3d2d)] -> xpath: //input[@id='email']]
+2025-08-02 09:20:46 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (71c3a3906263ce21a9e76156e79a3d2d)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:20:57 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (71c3a3906263ce21a9e76156e79a3d2d)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:20:57 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:22:15 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 09:22:16 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:22:16 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:22:17 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:22:17 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (0b92e8e9ac7c84ac410eccb921f0dc7d)] -> xpath: //input[@id='email']]
+2025-08-02 09:22:18 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (0b92e8e9ac7c84ac410eccb921f0dc7d)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:22:29 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (0b92e8e9ac7c84ac410eccb921f0dc7d)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:22:40 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:22:40 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:22:40 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:22:41 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:22:41 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (fc12ec03135778eb33fa0194a70e2a63)] -> xpath: //input[@id='email']]
+2025-08-02 09:22:43 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (fc12ec03135778eb33fa0194a70e2a63)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:22:53 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (fc12ec03135778eb33fa0194a70e2a63)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:23:04 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:26:27 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 09:26:29 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:26:29 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:26:29 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:26:30 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (3312ad0b935965fb2e3f818977010ad2)] -> xpath: //input[@id='email']]
+2025-08-02 09:26:31 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (3312ad0b935965fb2e3f818977010ad2)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:26:41 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (3312ad0b935965fb2e3f818977010ad2)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:26:42 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (3312ad0b935965fb2e3f818977010ad2)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 09:26:42 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 09:26:43 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 09:26:43 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 09:26:44 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 09:26:44 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (3ffdc82bec726e75345b17995ef2390a)] -> xpath: //input[@id='email']]
+2025-08-02 09:26:45 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (3ffdc82bec726e75345b17995ef2390a)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 09:26:56 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (3ffdc82bec726e75345b17995ef2390a)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 09:26:56 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (3ffdc82bec726e75345b17995ef2390a)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 09:26:56 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 10:09:32 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 10:09:35 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 10:09:35 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 10:09:35 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 10:09:36 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:07:58 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:08:03 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:08:03 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:08:05 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:08:05 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:25:41 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:25:44 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:25:44 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:25:45 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:25:46 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:27:45 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:27:47 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:27:47 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:27:48 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:27:48 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:37:37 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:37:39 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:37:39 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:37:40 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:37:40 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:52:02 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:52:05 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:52:05 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:52:07 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:52:07 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:53:07 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:53:09 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:53:09 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:53:10 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:53:10 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (d07beb64fbaf3769ccee567baa6f47ff)] -> xpath: //input[@id='email']]
+2025-08-02 11:53:12 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (d07beb64fbaf3769ccee567baa6f47ff)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 11:53:22 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (d07beb64fbaf3769ccee567baa6f47ff)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 11:53:22 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (d07beb64fbaf3769ccee567baa6f47ff)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 11:53:23 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:53:24 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:53:24 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:53:24 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:53:25 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (10c0cf5abdcc33a3fa129a372011c25f)] -> xpath: //input[@id='email']]
+2025-08-02 11:53:26 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (10c0cf5abdcc33a3fa129a372011c25f)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 11:53:37 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (10c0cf5abdcc33a3fa129a372011c25f)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 11:53:37 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (10c0cf5abdcc33a3fa129a372011c25f)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 11:53:37 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:53:38 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:53:38 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:53:40 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:53:41 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:59:12 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 11:59:14 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:59:14 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:59:15 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:59:15 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (c65bd82a3526b2c87fbe27fa8b3a64dd)] -> xpath: //input[@id='email']]
+2025-08-02 11:59:17 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (c65bd82a3526b2c87fbe27fa8b3a64dd)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 11:59:27 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (c65bd82a3526b2c87fbe27fa8b3a64dd)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 11:59:28 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (c65bd82a3526b2c87fbe27fa8b3a64dd)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 11:59:28 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:59:29 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:59:29 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:59:30 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:59:31 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (37700ec5f8939de4f45aa8d2f6e5484c)] -> xpath: //input[@id='email']]
+2025-08-02 11:59:32 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (37700ec5f8939de4f45aa8d2f6e5484c)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 11:59:43 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (37700ec5f8939de4f45aa8d2f6e5484c)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 11:59:43 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (37700ec5f8939de4f45aa8d2f6e5484c)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 11:59:43 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 11:59:44 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 11:59:44 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 11:59:47 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 11:59:47 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:04:26 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:04:28 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:04:28 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:04:29 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:04:30 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (09a0c9630f90d29598ff9dc9b6a630a4)] -> xpath: //input[@id='email']]
+2025-08-02 12:04:31 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (09a0c9630f90d29598ff9dc9b6a630a4)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:04:42 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (09a0c9630f90d29598ff9dc9b6a630a4)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:04:42 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (09a0c9630f90d29598ff9dc9b6a630a4)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:04:42 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:04:43 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:04:43 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:04:45 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:04:45 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (cc11c5093d71237e61a0b87059bb2314)] -> xpath: //input[@id='email']]
+2025-08-02 12:04:47 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (cc11c5093d71237e61a0b87059bb2314)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:04:57 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (cc11c5093d71237e61a0b87059bb2314)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:04:57 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (cc11c5093d71237e61a0b87059bb2314)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:04:58 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:04:59 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:04:59 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:05:00 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:05:00 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (bf4344a4124e4caf3993067103489564)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:05:00 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (bf4344a4124e4caf3993067103489564)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:05:01 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (bf4344a4124e4caf3993067103489564)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:05:01 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:06:19 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:06:22 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:06:22 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:06:23 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:06:23 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (73a416a18ed4e23a92f96957cea23575)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:06:24 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (73a416a18ed4e23a92f96957cea23575)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:06:24 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (73a416a18ed4e23a92f96957cea23575)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:06:24 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:12:37 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:12:40 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:12:41 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:12:42 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:12:42 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (dba0f82e366ffde0cc31c32cf1782fa4)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:12:43 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (dba0f82e366ffde0cc31c32cf1782fa4)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:12:43 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (dba0f82e366ffde0cc31c32cf1782fa4)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:12:44 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:14:39 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:14:41 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:14:42 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:14:43 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:14:43 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (eed260d1422599a351971bd622dd76fe)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:14:43 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (eed260d1422599a351971bd622dd76fe)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:14:44 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (eed260d1422599a351971bd622dd76fe)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:14:44 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:15:13 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:15:16 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:15:16 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:15:17 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:15:17 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (12d49a09ce74967ea0bdb96d87727a26)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:15:17 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (12d49a09ce74967ea0bdb96d87727a26)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:15:17 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (12d49a09ce74967ea0bdb96d87727a26)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:15:18 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:16:03 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:16:06 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:16:06 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:16:07 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:16:07 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (a52e08dfbec552cffe35bb229118aebf)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:16:07 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (a52e08dfbec552cffe35bb229118aebf)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:16:07 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (a52e08dfbec552cffe35bb229118aebf)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:16:08 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:18:41 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:18:43 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:18:43 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:18:45 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:18:45 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (814f5e3f4cd40726e4db531e9c821fac)] -> xpath: //input[@id='email']]
+2025-08-02 12:18:47 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (814f5e3f4cd40726e4db531e9c821fac)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:18:58 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (814f5e3f4cd40726e4db531e9c821fac)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:18:58 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (814f5e3f4cd40726e4db531e9c821fac)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:18:58 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:19:00 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:19:00 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:19:00 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:19:01 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (9ed9a78a5b59454e9808762b7c97be70)] -> xpath: //input[@id='email']]
+2025-08-02 12:19:03 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (9ed9a78a5b59454e9808762b7c97be70)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:19:13 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (9ed9a78a5b59454e9808762b7c97be70)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:19:13 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (9ed9a78a5b59454e9808762b7c97be70)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:19:14 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:19:15 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:19:15 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:19:16 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:19:16 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (26b73c37010c342d337ff5eab4630461)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:19:16 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (26b73c37010c342d337ff5eab4630461)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:19:16 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (26b73c37010c342d337ff5eab4630461)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:19:16 INFO  GenericWrapper:142 - Entered text 'manoj@gmail.com' into element: [[ChromeDriver: chrome on windows (26b73c37010c342d337ff5eab4630461)] -> xpath: //input[@id='regEmail']]
+2025-08-02 12:19:17 INFO  GenericWrapper:142 - Entered text 'M2$friuZrA' into element: [[ChromeDriver: chrome on windows (26b73c37010c342d337ff5eab4630461)] -> xpath: //input[@id='regPassword']]
+2025-08-02 12:19:17 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:20:22 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:20:24 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:20:24 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:20:26 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:20:26 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (72b8845d6c43ca39728c1fa1969cba63)] -> xpath: //input[@id='email']]
+2025-08-02 12:20:28 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (72b8845d6c43ca39728c1fa1969cba63)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:20:38 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (72b8845d6c43ca39728c1fa1969cba63)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:20:38 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (72b8845d6c43ca39728c1fa1969cba63)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:20:39 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:20:40 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:20:40 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:20:41 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:20:42 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (9158c7d285684ce74605855426deabff)] -> xpath: //input[@id='email']]
+2025-08-02 12:20:43 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (9158c7d285684ce74605855426deabff)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:20:54 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (9158c7d285684ce74605855426deabff)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:20:54 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (9158c7d285684ce74605855426deabff)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:20:54 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:20:55 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:20:55 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:20:56 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:20:57 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:20:57 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:20:57 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:20:57 INFO  GenericWrapper:142 - Entered text 'manoj@gmail.com' into element: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='regEmail']]
+2025-08-02 12:20:57 INFO  GenericWrapper:142 - Entered text 'M2$friuZrA' into element: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='regPassword']]
+2025-08-02 12:20:57 INFO  GenericWrapper:142 - Entered text 'M2$friuZrA' into element: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='regConfirmPassword']]
+2025-08-02 12:20:58 INFO  GenericWrapper:142 - Entered text '+91 8586838210' into element: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='regPhone']]
+2025-08-02 12:20:58 INFO  GenericWrapper:394 - Element clicked after waiting: [[ChromeDriver: chrome on windows (59316400d44fbdb9d536c3934280ea4c)] -> xpath: //input[@id='agreeTerms']]
+2025-08-02 12:21:19 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:38:12 INFO  LoadProperties:74 - Configuration loaded successfully from: src/main/resources/config.properties
+2025-08-02 12:38:14 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:38:14 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:38:16 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:38:16 INFO  GenericWrapper:142 - Entered text 'admin@shophub.com' into element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //input[@id='email']]
+2025-08-02 12:38:17 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //a[@id='adminNavLink']]
+2025-08-02 12:38:18 INFO  GenericWrapper:142 - Entered text 'Bluetooth Mouse' into element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //input[@id='productName']]
+2025-08-02 12:38:18 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //select[@id='productCategory']]
+2025-08-02 12:38:18 INFO  GenericWrapper:218 - Selected dropdown option by value 'Electronics' for element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //select[@id='productCategory']]
+2025-08-02 12:38:18 INFO  GenericWrapper:142 - Entered text '499' into element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //input[@id='productPrice']]
+2025-08-02 12:38:18 INFO  GenericWrapper:142 - Entered text '20' into element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //input[@id='productStock']]
+2025-08-02 12:38:18 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //textarea[@id='productDescription']]
+2025-08-02 12:38:18 INFO  GenericWrapper:142 - Entered text 'Wireless optical mouse' into element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //textarea[@id='productDescription']]
+2025-08-02 12:38:18 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //button[normalize-space()='Add Product']]
+2025-08-02 12:38:20 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:38:20 INFO  GenericWrapper:142 - Entered text 'Bluetooth Mouse' into element: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:38:30 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:38:30 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (f19ecbeb7b8605ee62794d7cb644e6d4)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:38:31 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:38:32 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:38:32 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:38:34 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:38:34 INFO  GenericWrapper:142 - Entered text 'admin@shophub.com' into element: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //input[@id='email']]
+2025-08-02 12:38:36 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //a[@id='adminNavLink']]
+2025-08-02 12:38:36 INFO  GenericWrapper:171 - Scrolled to element: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //h3[normalize-space()='Existing Products']]
+2025-08-02 12:38:36 INFO  GenericWrapper:171 - Scrolled to element: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //label[text()='Current Stock']]
+2025-08-02 12:38:36 INFO  GenericWrapper:142 - Entered text '65' into element: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //input[@id='editProductStock']]
+2025-08-02 12:38:36 INFO  GenericWrapper:159 - Screenshot saved: C:\Users\seeni\IdeaProjects\ShopHub\Screenshots\updatestock.jpeg
+2025-08-02 12:38:36 INFO  GenericWrapper:171 - Scrolled to element: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //button[text()='Update Product']]
+2025-08-02 12:38:36 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //button[text()='Update Product']]
+2025-08-02 12:38:37 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (2dcbde91a4ea18a0619e6ed524b51a02)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:38:37 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:38:38 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:38:38 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:38:39 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:38:40 INFO  GenericWrapper:142 - Entered text 'admin@shophub.com' into element: [[ChromeDriver: chrome on windows (50b3ac44f7986d5b8f0f0a215a94d11c)] -> xpath: //input[@id='email']]
+2025-08-02 12:38:41 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (50b3ac44f7986d5b8f0f0a215a94d11c)] -> xpath: //a[@id='adminNavLink']]
+2025-08-02 12:38:41 INFO  GenericWrapper:171 - Scrolled to element: [[ChromeDriver: chrome on windows (50b3ac44f7986d5b8f0f0a215a94d11c)] -> xpath: //h3[normalize-space()='Existing Products']]
+2025-08-02 12:38:41 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (50b3ac44f7986d5b8f0f0a215a94d11c)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:38:42 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:38:43 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:38:43 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:38:43 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:38:44 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (ebdc51fa3eb8afed378cbc8ea6b9dbd6)] -> xpath: //input[@id='email']]
+2025-08-02 12:39:04 INFO  GenericWrapper:159 - Screenshot saved: C:\Users\seeni\IdeaProjects\ShopHub\Screenshots\login_failed_expected_success.jpeg
+2025-08-02 12:39:05 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:39:06 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:39:06 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:39:07 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:39:07 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (cea6053f78a87a68cc6a5a089e528958)] -> xpath: //input[@id='email']]
+2025-08-02 12:39:09 INFO  GenericWrapper:142 - Entered text 'vivo' into element: [[ChromeDriver: chrome on windows (cea6053f78a87a68cc6a5a089e528958)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:39:20 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:39:21 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:39:21 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:39:22 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:39:22 INFO  GenericWrapper:142 - Entered text 'user@example.com' into element: [[ChromeDriver: chrome on windows (fc8566f0b5722c3df900c575fe714504)] -> xpath: //input[@id='email']]
+2025-08-02 12:39:24 INFO  GenericWrapper:142 - Entered text 'MacBook' into element: [[ChromeDriver: chrome on windows (fc8566f0b5722c3df900c575fe714504)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:39:34 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (fc8566f0b5722c3df900c575fe714504)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:39:34 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (fc8566f0b5722c3df900c575fe714504)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:39:35 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:39:36 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:39:36 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:39:37 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:39:37 INFO  GenericWrapper:142 - Entered text 'guest@demo.com' into element: [[ChromeDriver: chrome on windows (efc4689db097bf997325d6209b6ea514)] -> xpath: //input[@id='email']]
+2025-08-02 12:39:39 INFO  GenericWrapper:142 - Entered text 'iPhone' into element: [[ChromeDriver: chrome on windows (efc4689db097bf997325d6209b6ea514)] -> xpath: //input[@placeholder='Search products...']]
+2025-08-02 12:39:49 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (efc4689db097bf997325d6209b6ea514)] -> xpath: //button[normalize-space()='Checkout']]
+2025-08-02 12:39:49 INFO  GenericWrapper:181 - Clicked element using JS: [[ChromeDriver: chrome on windows (efc4689db097bf997325d6209b6ea514)] -> xpath: //button[normalize-space()='Logout']]
+2025-08-02 12:39:50 INFO  GenericWrapper:116 - Browser closed successfully.
+2025-08-02 12:39:51 INFO  GenericWrapper:62 - Chrome browser launched successfully.
+2025-08-02 12:39:51 INFO  GenericWrapper:97 - Browser window maximized.
+2025-08-02 12:39:52 INFO  GenericWrapper:106 - Opened URL: https://bugbash.syook.com/
+2025-08-02 12:39:52 INFO  GenericWrapper:408 - Element clicked after waiting: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //button[normalize-space()='Create New Account']]
+2025-08-02 12:39:52 INFO  GenericWrapper:142 - Entered text 'Manoj' into element: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='regFirstName']]
+2025-08-02 12:39:52 INFO  GenericWrapper:142 - Entered text 'kumar' into element: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='regLastName']]
+2025-08-02 12:39:53 INFO  GenericWrapper:142 - Entered text 'manoj@gmail.com' into element: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='regEmail']]
+2025-08-02 12:39:53 INFO  GenericWrapper:142 - Entered text 'M2$friuZrA' into element: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='regPassword']]
+2025-08-02 12:39:53 INFO  GenericWrapper:142 - Entered text 'M2$friuZrA' into element: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='regConfirmPassword']]
+2025-08-02 12:39:53 INFO  GenericWrapper:142 - Entered text '+91 8586838210' into element: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='regPhone']]
+2025-08-02 12:39:53 INFO  GenericWrapper:394 - Element clicked after waiting: [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //input[@id='agreeTerms']]
+2025-08-02 12:40:14 INFO  GenericWrapper:116 - Browser closed successfully.

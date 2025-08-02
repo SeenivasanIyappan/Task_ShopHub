@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Runner.TestRunner" time="129.946" tests="8" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\seeni\IdeaProjects\ShopHub\target\test-classes;C:\Users\seeni\IdeaProjects\ShopHub\target\classes;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\seeni\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\seeni\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\seeni\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\seeni\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\seeni\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\seeni\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-java\7.24.0\cucumber-java-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-core\7.24.0\cucumber-core-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-gherkin\7.24.0\cucumber-gherkin-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.24.0\cucumber-gherkin-messages-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\gherkin\33.0.0\gherkin-33.0.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\messages\28.0.0\messages-28.0.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\pretty-formatter\0.2.0\pretty-formatter-0.2.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\query\13.5.0\query-13.5.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\testng-xml-formatter\0.4.0\testng-xml-formatter-0.4.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\seeni\.m2\repository\io\cucumber\datatable\7.24.0\datatable-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-plugin\7.24.0\cucumber-plugin-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\docstring\7.24.0\docstring-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\junit-xml-formatter\0.8.0\junit-xml-formatter-0.8.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\seeni\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-junit\7.24.0\cucumber-junit-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-picocontainer\7.24.0\cucumber-picocontainer-7.24.0.jar;C:\Users\seeni\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\seeni\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\seeni\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\seeni\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\seeni\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\seeni\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\seeni\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\seeni\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\seeni\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\seeni\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\seeni\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\seeni\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\seeni\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\seeni\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\seeni\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\seeni\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\seeni\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\seeni\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\seeni\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\seeni\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\seeni\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\seeni\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\seeni\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\seeni\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\seeni\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\seeni\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\seeni\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\seeni\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\seeni\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\seeni\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\seeni\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\seeni\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\seeni\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\seeni\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\seeni\.m2\repository\com\google\protobuf\protobuf-java\3.21.12\protobuf-java-3.21.12.jar;C:\Users\seeni\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\seeni\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\seeni\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\seeni\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\seeni\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\seeni\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\seeni\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\seeni\AppData\Local\Temp\surefire7706525639754803578\surefirebooter-20250802123808870_3.jar C:\Users\seeni\AppData\Local\Temp\surefire7706525639754803578 2025-08-02T12-38-08_443-jvmRun1 surefire-20250802123808870_1tmp surefire_0-20250802123808870_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\seeni\IdeaProjects\ShopHub\target\test-classes;C:\Users\seeni\IdeaProjects\ShopHub\target\classes;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\seeni\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\seeni\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\seeni\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\seeni\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\seeni\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\seeni\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\seeni\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\seeni\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-java\7.24.0\cucumber-java-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-core\7.24.0\cucumber-core-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-gherkin\7.24.0\cucumber-gherkin-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.24.0\cucumber-gherkin-messages-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\gherkin\33.0.0\gherkin-33.0.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\messages\28.0.0\messages-28.0.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\pretty-formatter\0.2.0\pretty-formatter-0.2.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\query\13.5.0\query-13.5.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\testng-xml-formatter\0.4.0\testng-xml-formatter-0.4.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\seeni\.m2\repository\io\cucumber\datatable\7.24.0\datatable-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-plugin\7.24.0\cucumber-plugin-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\docstring\7.24.0\docstring-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\junit-xml-formatter\0.8.0\junit-xml-formatter-0.8.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\seeni\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-junit\7.24.0\cucumber-junit-7.24.0.jar;C:\Users\seeni\.m2\repository\io\cucumber\cucumber-picocontainer\7.24.0\cucumber-picocontainer-7.24.0.jar;C:\Users\seeni\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\seeni\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\seeni\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\seeni\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\seeni\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\seeni\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\seeni\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\seeni\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\seeni\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\seeni\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\seeni\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\seeni\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\seeni\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\seeni\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\seeni\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\seeni\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\seeni\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\seeni\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\seeni\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\seeni\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\seeni\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\seeni\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\seeni\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\seeni\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\seeni\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\seeni\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\seeni\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\seeni\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\seeni\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\seeni\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\seeni\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\seeni\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\seeni\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\seeni\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\seeni\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\seeni\.m2\repository\com\google\protobuf\protobuf-java\3.21.12\protobuf-java-3.21.12.jar;C:\Users\seeni\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\seeni\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\seeni\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\seeni\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\seeni\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\seeni\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\seeni\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\seeni\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\seeni\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\seeni\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\seeni"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\seeni\IdeaProjects\ShopHub"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\seeni\AppData\Local\Temp\surefire7706525639754803578\surefirebooter-20250802123808870_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="seeni"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\seeni\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\seeni\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="cucumber.filter.tags" value="@Regression or @NegativeFlow"/>
+    <property name="user.dir" value="C:\Users\seeni\IdeaProjects\ShopHub"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\apache-maven-3.9.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\seeni\AppData\Local\Android\Sdk\platform-tools;C:\Users\seeni\AppData\Local\Android\Sdk\emulator;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\seeni\AppData\Local\Programs\Python\Launcher\;C:\Users\seeni\AppData\Local\Microsoft\WindowsApps;C:\Users\seeni\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Users\seeni\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Login, add a new product, search product, add to cart, and checkout" classname="Successful login to Admin portal and add a new product" time="20.181">
+    <system-out><![CDATA[
+@PositiveFlow @Regression @AdminFlow
+Scenario Outline: Login, add a new product, search product, add to cart, and checkout  # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Admin-Login.feature:33
+Hooks @Before - Scenario: Login, add a new product, search product, add to cart, and checkout
+Hooks Initializing browser: chrome
+  Given Admin is on the login page                                                     # stepdefinitions.AdminSteps.admin_is_on_the_login_page()
+  When Admin enters valid email "admin@shophub.com" and password "admin123"            # stepdefinitions.AdminSteps.admin_enters_valid_email_and_password(java.lang.String,java.lang.String)
+  And Admin clicks the login button                                                    # stepdefinitions.AdminSteps.admin_clicks_the_login_button()
+Login successful.
+  Then Admin should be redirected to the home page                                     # stepdefinitions.AdminSteps.admin_should_be_redirected_to_the_home_page()
+  When Admin clicks on the Admin panel                                                 # stepdefinitions.AdminSteps.admin_clicks_on_the_admin_panel()
+  And Admin adds a new product with name "Bluetooth Mouse"                             # stepdefinitions.AdminSteps.admin_adds_a_new_product_with_name(java.lang.String)
+  And Admin selects category "Electronics" and enters price "499"                      # stepdefinitions.AdminSteps.admin_selects_category_and_enters_price(java.lang.String,java.lang.String)
+  And Admin enters initial stock "20" and product description "Wireless optical mouse" # stepdefinitions.AdminSteps.admin_enters_initial_stock_and_product_description(java.lang.String,java.lang.String)
+  Then Admin clicks the Add Product button                                             # stepdefinitions.AdminSteps.admin_clicks_the_add_product_button()
+  Then Admin click the all Products section                                            # stepdefinitions.AdminSteps.admin_click_the_all_products_section()
+  When Admin clicks on the search bar                                                  # stepdefinitions.AdminSteps.admin_clicks_on_the_search_bar()
+  And Admin types "Bluetooth Mouse" into the search bar                                # stepdefinitions.AdminSteps.admin_types_into_the_search_bar(java.lang.String)
+  And clicks the search button                                                         # stepdefinitions.LoginSteps.clicks_the_search_button()
+ Product was found should  be displayed: Bluetooth Mouse
+  Then Products related to "Bluetooth Mouse" should be displayed                       # stepdefinitions.LoginSteps.products_related_to_should_be_displayed(java.lang.String)
+ Product was found should  be displayed: Add to Cart
+  When User clicks "Add to Cart" on a displayed product                                # stepdefinitions.LoginSteps.user_clicks_add_to_cart_on_a_displayed_product(java.lang.String)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='mainApp']/div[@id='mainLayout']/aside[@class='cart']/div[@id='cartItems']/div[1]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f19ecbeb7b8605ee62794d7cb644e6d4, findElement {using=xpath, value=//body/div[@id='mainApp']/div[@id='mainLayout']/aside[@class='cart']/div[@id='cartItems']/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\seeni\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56659/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f19ecbeb7b8605ee62794d7cb644e6d4
+  Then The product should be added to the shopping cart                                # stepdefinitions.LoginSteps.the_product_should_be_added_to_the_shopping_cart()
+  When User clicks on the cart icon                                                    # stepdefinitions.LoginSteps.user_clicks_on_the_cart_icon()
+price is :541.41
+  Then The cart summary should display the added product with the correct price        # stepdefinitions.LoginSteps.the_cart_summary_should_display_the_added_product_with_the_correct_price()
+  When User clicks the Checkout button                                                 # stepdefinitions.LoginSteps.user_clicks_the_checkout_button()
+Order placed notification displayed: Item added to cart!
+  Then User should be redirected to the checkout page                                  # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_checkout_page()
+  Then User click the Logout button                                                    # stepdefinitions.LoginSteps.user_click_the_logout_button()
+Hooks @After - Scenario: Login, add a new product, search product, add to cart, and checkout
+Hooks Quitting driver...
+]]></system-out>
+    <system-err><![CDATA[2025-08-02T07:08:12.216721100Z main INFO Starting configuration XmlConfiguration[location=C:\Users\seeni\IdeaProjects\ShopHub\target\classes\log4j2.xml, lastModified=2025-08-01T16:05:18.248Z]...
+2025-08-02T07:08:12.218723700Z main INFO Configuration XmlConfiguration[location=C:\Users\seeni\IdeaProjects\ShopHub\target\classes\log4j2.xml, lastModified=2025-08-01T16:05:18.248Z] started.
+2025-08-02T07:08:12.222721700Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4ed38226...
+2025-08-02T07:08:12.222721700Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4ed38226 stopped.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Login, Open Admin Panel, and Edit Existing Products" classname="Successful login to Admin portal and add a new product" time="6.047">
+    <system-out><![CDATA[
+@PositiveFlow @Regression @AdminFlow
+Scenario Outline: Login, Open Admin Panel, and Edit Existing Products       # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Admin-Login.feature:51
+Hooks @Before - Scenario: Login, Open Admin Panel, and Edit Existing Products
+Hooks Initializing browser: chrome
+  Given Admin is on the login page                                          # stepdefinitions.AdminSteps.admin_is_on_the_login_page()
+  When Admin enters valid email "admin@shophub.com" and password "admin123" # stepdefinitions.AdminSteps.admin_enters_valid_email_and_password(java.lang.String,java.lang.String)
+  And Admin clicks the login button                                         # stepdefinitions.AdminSteps.admin_clicks_the_login_button()
+Login successful.
+  Then Admin should be redirected to the home page                          # stepdefinitions.AdminSteps.admin_should_be_redirected_to_the_home_page()
+  When Admin clicks on the Admin panel                                      # stepdefinitions.AdminSteps.admin_clicks_on_the_admin_panel()
+  Then Admin clicks on the Existing Products section                        # stepdefinitions.AdminSteps.admin_clicks_on_the_existing_products_section()
+product was founded
+  And Admin see the "Sony WH-1000XM5" list and clicks the edit icon         # stepdefinitions.AdminSteps.admin_see_the_list_and_clicks_the_edit_icon(java.lang.String)
+  Then Admin enters updated stock value "65"                                # stepdefinitions.AdminSteps.admin_enters_updated_stock_value(java.lang.String)
+  And clicks the update button                                              # stepdefinitions.AdminSteps.clicks_the_update_button()
+Update Product SuccessfullyLogin successful!
+  Then A success notification should be displayed                           # stepdefinitions.AdminSteps.a_success_notification_should_be_displayed()
+  Then User click the Logout button                                         # stepdefinitions.LoginSteps.user_click_the_logout_button()
+Hooks @After - Scenario: Login, Open Admin Panel, and Edit Existing Products
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+  <testcase name="Login, Open Admin Panel, and Delete Existing Products" classname="Successful login to Admin portal and add a new product" time="4.708">
+    <system-out><![CDATA[
+@PositiveFlow @Regression @AdminFlow
+Scenario Outline: Login, Open Admin Panel, and Delete Existing Products                             # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Admin-Login.feature:68
+Hooks @Before - Scenario: Login, Open Admin Panel, and Delete Existing Products
+Hooks Initializing browser: chrome
+  Given Admin is on the login page                                                                  # stepdefinitions.AdminSteps.admin_is_on_the_login_page()
+  When Admin enters valid email "admin@shophub.com" and password "admin123"                         # stepdefinitions.AdminSteps.admin_enters_valid_email_and_password(java.lang.String,java.lang.String)
+  And Admin clicks the login button                                                                 # stepdefinitions.AdminSteps.admin_clicks_the_login_button()
+Login successful.
+  Then Admin should be redirected to the home page                                                  # stepdefinitions.AdminSteps.admin_should_be_redirected_to_the_home_page()
+  When Admin clicks on the Admin panel                                                              # stepdefinitions.AdminSteps.admin_clicks_on_the_admin_panel()
+  Then Admin clicks on the Existing Products section                                                # stepdefinitions.AdminSteps.admin_clicks_on_the_existing_products_section()
+product was Delete Successfully
+  And Admin see "Dell Monitor 27"" list and clicks the delete icon,and a confirmation popup appears # stepdefinitions.AdminSteps.admin_see_list_and_clicks_the_delete_icon_and_a_confirmation_popup_appears(java.lang.String)
+  When Admin confirms the deletion                                                                  # stepdefinitions.AdminSteps.admin_confirms_the_deletion()
+Product Delete Successfully: Product deleted successfully
+  Then A success notification should be displayed stating the product was deleted                   # stepdefinitions.AdminSteps.a_success_notification_should_be_displayed_stating_the_product_was_deleted()
+  Then User click the Logout button                                                                 # stepdefinitions.LoginSteps.user_click_the_logout_button()
+Hooks @After - Scenario: Login, Open Admin Panel, and Delete Existing Products
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+  <testcase name="Unsuccessful login attempt with invalid credentials" classname="Unsuccessful Login and Invalid Search" time="23.542">
+    <failure message="Login failed. Expected success, but got failure." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login failed. Expected success, but got failure.
+	at page.LoginPage.checkLoginOutcome(LoginPage.java:74)
+	at stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page(LoginSteps.java:59)
+	at ✽.User should be redirected to the home page(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:8)
+]]></failure>
+    <system-out><![CDATA[
+@NegativeFlow @Regression @LoginFlow
+Scenario Outline: Unsuccessful login attempt with invalid credentials     # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:12
+Hooks @Before - Scenario: Unsuccessful login attempt with invalid credentials
+Hooks Initializing browser: chrome
+  Given User is on the login page                                         # stepdefinitions.LoginSteps.user_is_on_the_login_page()
+  When User enters invalid email "user@example.com" and password "user12" # stepdefinitions.LoginSteps.user_enters_invalid_email_and_password(java.lang.String,java.lang.String)
+  And clicks the login button                                             # stepdefinitions.LoginSteps.clicks_the_login_button()
+  Then User should be redirected to the home page                         # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page()
+      java.lang.AssertionError: Login failed. Expected success, but got failure.
+      	at page.LoginPage.checkLoginOutcome(LoginPage.java:74)
+      	at stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page(LoginSteps.java:59)
+      	at ✽.User should be redirected to the home page(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:8)
+
+Hooks @After - Scenario: Unsuccessful login attempt with invalid credentials
+Hooks Scenario failed. Capturing screenshot...
+
+    Embedding Failure Screenshot: Unsuccessful_login_attempt_with_invalid_credentials_1754118545264.png [image/png 439968 bytes]
+
+Screenshot saved successfully at: C:\Users\seeni\IdeaProjects\ShopHub\target\ExtentReport\Screenshots\Unsuccessful_login_attempt_with_invalid_credentials_1754118545264.png
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+  <testcase name="Valid login but product not found in search" classname="Unsuccessful Login and Invalid Search" time="14.699">
+    <failure message="Product &apos;vivo&apos; was found but should not be displayed." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Product 'vivo' was found but should not be displayed.
+	at org.junit.Assert.fail(Assert.java:89)
+	at page.HomePage.displayed_product(HomePage.java:70)
+	at stepdefinitions.LoginSteps.products_related_to_should_not_be_displayed(LoginSteps.java:96)
+	at ✽.Products related to "vivo" should not be displayed(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:23)
+]]></failure>
+    <system-out><![CDATA[
+@NegativeFlow @Regression @LoginFlow
+Scenario Outline: Valid login but product not found in search           # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:27
+Hooks @Before - Scenario: Valid login but product not found in search
+Hooks Initializing browser: chrome
+  Given User is on the login page                                       # stepdefinitions.LoginSteps.user_is_on_the_login_page()
+  When User enters valid email "guest@demo.com" and password "guest123" # stepdefinitions.LoginSteps.user_enters_valid_email_and_password(java.lang.String,java.lang.String)
+  And clicks the login button                                           # stepdefinitions.LoginSteps.clicks_the_login_button()
+Login successful.
+  Then User should be redirected to the home page                       # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page()
+  When User clicks on the search bar                                    # stepdefinitions.LoginSteps.user_clicks_on_the_search_bar()
+  And User types "vivo" into the search bar                             # stepdefinitions.LoginSteps.user_types_into_the_search_bar(java.lang.String)
+  And clicks the search button                                          # stepdefinitions.LoginSteps.clicks_the_search_button()
+ No products found for: vivo
+  Then Products related to "vivo" should not be displayed               # stepdefinitions.LoginSteps.products_related_to_should_not_be_displayed(java.lang.String)
+      java.lang.AssertionError: Product 'vivo' was found but should not be displayed.
+      	at org.junit.Assert.fail(Assert.java:89)
+      	at page.HomePage.displayed_product(HomePage.java:70)
+      	at stepdefinitions.LoginSteps.products_related_to_should_not_be_displayed(LoginSteps.java:96)
+      	at ✽.Products related to "vivo" should not be displayed(file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Negative.feature:23)
+
+Hooks @After - Scenario: Valid login but product not found in search
+Hooks Scenario failed. Capturing screenshot...
+
+    Embedding Failure Screenshot: Valid_login_but_product_not_found_in_search_1754118560040.png [image/png 67788 bytes]
+
+Screenshot saved successfully at: C:\Users\seeni\IdeaProjects\ShopHub\target\ExtentReport\Screenshots\Valid_login_but_product_not_found_in_search_1754118560040.png
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+  <testcase name="Login, search product, add to cart, and checkout #1" classname="Successful Shopping Journey for User and Guest User" time="14.92">
+    <system-out><![CDATA[
+@PositiveFlow @Regression @LoginFlow
+Scenario Outline: Login, search product, add to cart, and checkout              # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Positive.feature:24
+Hooks @Before - Scenario: Login, search product, add to cart, and checkout
+Hooks Initializing browser: chrome
+  Given User is on the login page                                               # stepdefinitions.LoginSteps.user_is_on_the_login_page()
+  When User enters valid email "user@example.com" and password "user123"        # stepdefinitions.LoginSteps.user_enters_valid_email_and_password(java.lang.String,java.lang.String)
+  And clicks the login button                                                   # stepdefinitions.LoginSteps.clicks_the_login_button()
+Login successful.
+  Then User should be redirected to the home page                               # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page()
+  When User clicks on the search bar                                            # stepdefinitions.LoginSteps.user_clicks_on_the_search_bar()
+  And User types "MacBook" into the search bar                                  # stepdefinitions.LoginSteps.user_types_into_the_search_bar(java.lang.String)
+  And clicks the search button                                                  # stepdefinitions.LoginSteps.clicks_the_search_button()
+ Product was found should  be displayed: MacBook
+  Then Products related to "MacBook" should be displayed                        # stepdefinitions.LoginSteps.products_related_to_should_be_displayed(java.lang.String)
+ Product was found should  be displayed: Add to Cart
+  When User clicks "Add to Cart" on a displayed product                         # stepdefinitions.LoginSteps.user_clicks_add_to_cart_on_a_displayed_product(java.lang.String)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='mainApp']/div[@id='mainLayout']/aside[@class='cart']/div[@id='cartItems']/div[1]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc8566f0b5722c3df900c575fe714504, findElement {using=xpath, value=//body/div[@id='mainApp']/div[@id='mainLayout']/aside[@class='cart']/div[@id='cartItems']/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\seeni\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56833}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56833/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc8566f0b5722c3df900c575fe714504
+  Then The product should be added to the shopping cart                         # stepdefinitions.LoginSteps.the_product_should_be_added_to_the_shopping_cart()
+  When User clicks on the cart icon                                             # stepdefinitions.LoginSteps.user_clicks_on_the_cart_icon()
+price is :2712.49
+  Then The cart summary should display the added product with the correct price # stepdefinitions.LoginSteps.the_cart_summary_should_display_the_added_product_with_the_correct_price()
+  When User clicks the Checkout button                                          # stepdefinitions.LoginSteps.user_clicks_the_checkout_button()
+Order placed notification displayed: Item added to cart!
+  Then User should be redirected to the checkout page                           # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_checkout_page()
+  Then User click the Logout button                                             # stepdefinitions.LoginSteps.user_click_the_logout_button()
+Hooks @After - Scenario: Login, search product, add to cart, and checkout
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+  <testcase name="Login, search product, add to cart, and checkout #2" classname="Successful Shopping Journey for User and Guest User" time="14.89">
+    <system-out><![CDATA[
+@PositiveFlow @Regression @LoginFlow
+Scenario Outline: Login, search product, add to cart, and checkout              # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Positive.feature:25
+Hooks @Before - Scenario: Login, search product, add to cart, and checkout
+Hooks Initializing browser: chrome
+  Given User is on the login page                                               # stepdefinitions.LoginSteps.user_is_on_the_login_page()
+  When User enters valid email "guest@demo.com" and password "guest123"         # stepdefinitions.LoginSteps.user_enters_valid_email_and_password(java.lang.String,java.lang.String)
+  And clicks the login button                                                   # stepdefinitions.LoginSteps.clicks_the_login_button()
+Login successful.
+  Then User should be redirected to the home page                               # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_home_page()
+  When User clicks on the search bar                                            # stepdefinitions.LoginSteps.user_clicks_on_the_search_bar()
+  And User types "iPhone" into the search bar                                   # stepdefinitions.LoginSteps.user_types_into_the_search_bar(java.lang.String)
+  And clicks the search button                                                  # stepdefinitions.LoginSteps.clicks_the_search_button()
+ Product was found should  be displayed: iPhone
+  Then Products related to "iPhone" should be displayed                         # stepdefinitions.LoginSteps.products_related_to_should_be_displayed(java.lang.String)
+ Product was found should  be displayed: Add to Cart
+  When User clicks "Add to Cart" on a displayed product                         # stepdefinitions.LoginSteps.user_clicks_add_to_cart_on_a_displayed_product(java.lang.String)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='mainApp']/div[@id='mainLayout']/aside[@class='cart']/div[@id='cartItems']/div[1]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [efc4689db097bf997325d6209b6ea514, findElement {using=xpath, value=//body/div[@id='mainApp']/div[@id='mainLayout']/aside[@class='cart']/div[@id='cartItems']/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\seeni\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56872/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: efc4689db097bf997325d6209b6ea514
+  Then The product should be added to the shopping cart                         # stepdefinitions.LoginSteps.the_product_should_be_added_to_the_shopping_cart()
+  When User clicks on the cart icon                                             # stepdefinitions.LoginSteps.user_clicks_on_the_cart_icon()
+price is :1301.99
+  Then The cart summary should display the added product with the correct price # stepdefinitions.LoginSteps.the_cart_summary_should_display_the_added_product_with_the_correct_price()
+  When User clicks the Checkout button                                          # stepdefinitions.LoginSteps.user_clicks_the_checkout_button()
+Order placed notification displayed: Item added to cart!
+  Then User should be redirected to the checkout page                           # stepdefinitions.LoginSteps.user_should_be_redirected_to_the_checkout_page()
+  Then User click the Logout button                                             # stepdefinitions.LoginSteps.user_click_the_logout_button()
+Hooks @After - Scenario: Login, search product, add to cart, and checkout
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+  <testcase name="User successfully creates a new account with valid details" classname="Successful Shopping Journey for User and Guest User" time="24.308">
+    <system-out><![CDATA[
+@PositiveFlow @Regression @NewUser
+Scenario: User successfully creates a new account with valid details      # file:///C:/Users/seeni/IdeaProjects/ShopHub/src/main/resources/Features/Login-Positive.feature:30
+Hooks @Before - Scenario: User successfully creates a new account with valid details
+Hooks Initializing browser: chrome
+  Given User is on the Create New Account page                            # stepdefinitions.NewUserSteps.user_is_on_the_create_new_account_page()
+  When User enters a valid "First Name" and "last Name"                   # stepdefinitions.NewUserSteps.user_enters_a_valid_and(java.lang.String,java.lang.String)
+  And User enters a valid email "Email Address"                           # stepdefinitions.NewUserSteps.user_enters_a_valid_email(java.lang.String)
+  And User enters a valid password "Password"                             # stepdefinitions.NewUserSteps.user_enters_a_valid_password(java.lang.String)
+  And User enters the same "Password" in the Confirm Password field       # stepdefinitions.NewUserSteps.user_enters_the_same_in_the_confirm_password_field(java.lang.String)
+  Then User enters a valid Number "Phone Number"                          # stepdefinitions.NewUserSteps.user_enters_a_valid_number(java.lang.String)
+  And User agrees to the Terms and Conditions                             # stepdefinitions.NewUserSteps.user_agrees_to_the_terms_and_conditions()
+  And User clicks on the Create Account button                            # stepdefinitions.NewUserSteps.user_clicks_on_the_create_account_button()
+Order placed notification not found or not visible. Error: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (942eab77d6baa0acf8d3d794d3e8377c)] -> xpath: //div[@id='notification']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\seeni\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56910/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 942eab77d6baa0acf8d3d794d3e8377c
+  Then A success message Account created successfully should be displayed # stepdefinitions.NewUserSteps.a_success_message_account_created_successfully_should_be_displayed()
+  And User should be redirected to the login page                         # stepdefinitions.NewUserSteps.user_should_be_redirected_to_the_login_page()
+Hooks @After - Scenario: User successfully creates a new account with valid details
+Hooks Quitting driver...
+]]></system-out>
+  </testcase>
+</testsuite>

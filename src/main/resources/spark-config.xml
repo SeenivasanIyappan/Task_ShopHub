@@ -1,0 +1,11 @@
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>utf-8</encoding>
+        <protocol>https</protocol>
+        <documentTitle>ShopHub Pro Report</documentTitle>
+        <reportName>API-Cucumber Extent Report</reportName>
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+        <media>yes</media> <!-- 👈 This enables embedded screenshots -->
+    </configuration>
+</extentreports>

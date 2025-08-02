@@ -1,0 +1,7 @@
+stepdefinitions\LoginSteps.class
+stepdefinitions\Hooks.class
+page\HomePage.class
+Runner\TestRunner.class
+page\AdminPage.class
+page\LoginPage.class
+stepdefinitions\AdminSteps.class
