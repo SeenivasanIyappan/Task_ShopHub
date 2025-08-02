@@ -19,4 +19,10 @@
 - mvn test -Padmin-tests          # @AdminFlow  
 - mvn test -Pcommon-tests         # All tags together 
 
+# Report HTML
 
+-- ExtentReport1.html     # Extent Report
+  -- Cucumber- Report
+   -- Cucumber.html
+     -- Cucumber.Json
+  
