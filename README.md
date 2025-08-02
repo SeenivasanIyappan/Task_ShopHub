@@ -19,10 +19,54 @@
 - mvn test -Padmin-tests          # @AdminFlow  
 - mvn test -Pcommon-tests         # All tags together 
 
-# Report HTML
-
--- ExtentReport1.html     # Extent Report
-  -- Cucumber- Report
-   -- Cucumber.html
-     -- Cucumber.Json
-  
+###  :file_folder: File Structure
+```
+.
+├── ShopHub
+│   ├── Logs
+|   |   ├── automation.log  
+│   ├── Output
+│   │   ├── Screenshots
+│   │   │   ├── embedded1.png
+│   │   │   └── fail_Unsuccessful_login_attempt_with_invalid_credentials.png
+│   │   │   └── fail_Valid_login_but_product_not_found_in_search.png
+│   ├── src
+│   │   ├── main
+│   │   │  ├── genericWrapper
+│   │   │  │  ├── GenericWrapper.java
+│   │   │  ├── WebUtils
+│   │   │  │  ├── LoadProperties.java
+│   │   │  ├── resources
+│   │   │  │  ├── Features
+│   │   │  │  │  ├── Admin-Login.feature
+│   │   │  │  │   └── Login-Negative.feature
+│   │   │  │  │   └── Login-Positive.feature
+│   │   │  ├── config.properties
+│   │   │  ├── extent.properties
+│   │   │  ├── log4j2.xml
+│   │   │  ├── log4j2-back.xml
+│   │   │  ├── spark-config.xml 
+│   │   ├── test
+│   │   │  ├── Java
+│   │   │  │ ├── Page
+│   │   │  │ │ ├── AdminPage.java
+│   │   │  │ │ │  └── HomePage.java
+│   │   │  │ │ │  └── LoginPage.java
+│   │   │  │ │ │  └── NewUser.java
+│   │   │  │ ├── Runner
+│   │   │  │ │ ├── TestRunner.java
+│   │   │  │ ├── stepdefinitions
+│   │   │  │ │ ├── AdminSteps.java
+│   │   │  │ │ │  └── Hooks.java
+│   │   │  │ │ │  └── LoginSteps.java
+│   │   │  │ │ │  └── NewUserSteps.java
+│   │   │  │ ├── target
+│   │   │  │ │ ├── cucumber-reports            
+│   │   │  │ │ │ ├── cucumber.html       # HTML Report
+│   │   │  │ │ │ │   └── cucumber.json
+│   │   │  │ │ │ │   └── cucumber.xml
+│   │   │  │ │ ├── ExtentReports 
+│   │   │  │ │ │ ├── ExtentReport1.html    # Extent HTML Report
+├── pom.xml
+├── index.html
+├── rate.html
